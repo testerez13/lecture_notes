@@ -4,7 +4,6 @@ def calculater(num1,num2):
     print("1- Toplama\n2- Çıkarma\n3- Çarpma\n4- Bölme")
     userChose = int(input("Lütfen seçeneklerden birini tercih ediniz: "))
 
-
     if userChose==1:
         print(num1+num2)
     elif userChose==2:
